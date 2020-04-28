@@ -1,11 +1,6 @@
 # List of fixed seed nodes for testnet
-
-# Onion nodes
-thfsmmn2jreadercoin.onion
-it2pj4f7657g3rhi.onion
-nkf5e6b7pl4jfd4a.onion
-4zhkir2ofl7orfom.onion
-t6xj6wilh4ytvcs7.onion
-i6y6ivorwakd7nw3.onion
-ubqj4rsu3nqtxmtp.onion
-
+192.168.0.95:19333
+[2600:8804:8800:54c::188c]:19333
+68.105.28.11:19333
+68.105.29.11:19333
+68.105.28.12:19333

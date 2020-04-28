@@ -106,7 +106,7 @@ public:
 
         // The best chain should have at least this much work.
         //changed nMinimumChainWork from ("0x000000000000000000000000000000000000000000723d3581fe1bd55373540a") [jacob]
-        consesnus.nMinimumChainWork= uint256S("0x00");
+        consensus.nMinimumChainWork= uint256S("0x00");
 
         // By default assume that the signatures in ancestors of this block are valid.
         // changed from 0x0000000000000000003b9ce759c2a087d52abc4266f8f4ebd6d768b89defa50a [jacob]
@@ -200,7 +200,7 @@ public:
 
         // The best chain should have at least this much work.
         //changed nMinimumChainWork from ("0x00000000000000000000000000000000000000000000002830dab7f76dbb7d63") [jacob]
-        consesnus.nMinimumChainWork= uint256S("0x00");
+        consensus.nMinimumChainWork= uint256S("0x00");
 
         // By default assume that the signatures in ancestors of this block are valid.
         consensus.defaultAssumeValid = uint256S("0x0000000002e9e7b00e1f6dc5123a04aad68dd0f0968d8c7aa45f6640795c37b1"); //1135275
@@ -296,7 +296,7 @@ public:
         pchMessageStart[1] = 0xc1; 
         pchMessageStart[2] = 0xb7; 
         pchMessageStart[3] = 0xdc;
-        nDefaultPort = 18444;
+        nDefaultPort = 19444;
         nPruneAfterHeight = 1000;
 
         genesis = CreateGenesisBlock(1587954181, 311909, 0x1e0ffff0, 1, 10 * COIN);
